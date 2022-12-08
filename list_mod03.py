@@ -7,4 +7,10 @@ def remove_negative(lst):
     Returns:
         list: list without negative numbers.
     '''
-    return
+    l = []
+    for i in lst:
+        if i>0:
+            l.append(i)
+
+    return l
+print(remove_negative([1, -2, 3, -4, 5]))
