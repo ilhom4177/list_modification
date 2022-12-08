@@ -7,4 +7,10 @@ def remove_even(lst):
     Returns:
         list: list without even numbers.
     '''
-    return
+    remove_even = []
+    for i in lst:
+        if i%2==1:
+            remove_even.append(i)
+
+    return remove_even
+print(remove_even([1,2,3,4,5]))
